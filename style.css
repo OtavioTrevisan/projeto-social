@@ -14,12 +14,59 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-bottom: 10px;
 }
 iframe {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 73vh;
-    width: 33vw;
+    height: 469px;
+    width: 264px;
 }
+.botao {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#referencia {
+    position: relative;
+    height: 100vh;
+    width: 98vw;
+}
+#homeI {
+    position: absolute ;
+    top: 50px;
+    left: 98%;
+    border-radius: 50%;
+}
+#twitterI {
+    position: absolute ;
+    top: 120px;
+    left: 98%;
+    border-radius: 50%;
+}
+#instagramI {
+    position: absolute ;
+    top: 190px;
+    left: 98%;
+    border-radius: 50%;
+}
+#githubI {
+    position: absolute ;
+    top: 260px;
+    left: 98%;
+    border-radius: 50%;
+}
+a > img {
+    transition: all 0.3s ease-in-out 0s;
+}
+a > img:hover {
+    transform: translate(-35px, -31px);
+    border: 2px solid lightgray;
+    transition: all 0.3s ease-in-out 0s;
+}
+
