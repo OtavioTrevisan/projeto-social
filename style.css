@@ -24,13 +24,13 @@ body {
     border-radius: 45%;
     margin-top: 30px ;
     margin-right: 20px;
-    transition: all 0.3 ease-in-out 0s;
+    transition: all 0.1 ease 0s;
 
 }
 .boto:hover {
-    border: solid 3px lightgray;
+    border: solid 1px lightgray;
     transform: translate(-5px, -5px);
-    transition: all 0.3s ease-in-out 0s;
+    transition: all 0.s ease-in-out 0s;
 }
 #telefone {
     position: absolute;
