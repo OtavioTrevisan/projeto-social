@@ -1,0 +1,14 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
+body {
+    background-color: black;
+}
+img {
+    width: 100vw;
+}
